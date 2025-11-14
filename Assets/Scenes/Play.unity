@@ -150,8 +150,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3.9603095, y: 3.9122539, z: 3.8298917}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1802687433}
+  m_Children: []
   m_Father: {fileID: 920107964}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &695149034
@@ -184,7 +183,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 695149032}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -332,7 +331,7 @@ Transform:
   m_GameObject: {fileID: 725631801}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -521.4586, y: 1, z: 10.9427}
+  m_LocalPosition: {x: -521.7, y: 1, z: 9.5}
   m_LocalScale: {x: 1338.1289, y: -0.0058823135, z: 231.00314}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -430,7 +429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanJump: 0
-  Thrust: 15
+  Thrust: 10
 --- !u!1 &1191755816
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,8 +468,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.5112928
+  m_Center: {x: 0.44204712, y: 0, z: 0}
 --- !u!23 &1191755818
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -533,8 +532,8 @@ Transform:
   m_GameObject: {fileID: 1191755816}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 48.21, y: 1.61, z: -4.58}
-  m_LocalScale: {x: 1, y: -19.025114, z: 39.14418}
+  m_LocalPosition: {x: 48.21, y: 3.1884, z: -2.8485}
+  m_LocalScale: {x: 1, y: -22.181381, z: 35.67992}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -780,11 +779,11 @@ Transform:
   m_GameObject: {fileID: 1802687430}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.952879, y: -0.65605146, z: 0.80937016}
-  m_LocalScale: {x: 0.2525055, y: 0.25560713, z: 0.261104}
+  m_LocalPosition: {x: 1.0310364, y: 2.11336, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 695149033}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1802687434
 MonoBehaviour:
@@ -842,8 +841,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1cfca97321654a4ba60c55114331577, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SensitivityX: 400
-  SensitivityY: 400
+  SensitivityX: 600
+  SensitivityY: 600
   orientation: {fileID: 1806627668}
   xAxis: 0
   yAxis: 0.18
@@ -895,6 +894,7 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1802687433}
   - {fileID: 1536361150}
   - {fileID: 725631805}
   - {fileID: 1191755820}

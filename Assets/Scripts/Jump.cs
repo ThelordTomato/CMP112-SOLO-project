@@ -22,7 +22,7 @@ public class Jump : MonoBehaviour
 
     private void JumpMovement()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && CanJump == true)
+        if (Input.GetKey(KeyCode.Space) && CanJump == true)
         {
 
             rb.AddForce(0, Thrust, 0, ForceMode.VelocityChange);
