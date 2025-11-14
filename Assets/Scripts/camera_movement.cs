@@ -31,6 +31,8 @@ public class camera_movement : MonoBehaviour
         yAxis += mouseX;
         xAxis -= mouseY;
 
+        xAxis = Mathf.Clamp(xAxis, -90f, 90f);
+
         transform.rotation = Quaternion.Euler(xAxis, yAxis, 0);
         orientation.rotation = Quaternion.Euler(0, yAxis, 0);
     }
