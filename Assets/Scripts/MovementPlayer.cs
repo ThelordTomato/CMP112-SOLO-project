@@ -5,6 +5,7 @@ public class MovementPlayer : MonoBehaviour
    
     //Initializing variables
     public float movespeed;
+    public float Drag;
 
     float horizontalInput;
     float verticalInput;
@@ -27,6 +28,7 @@ public class MovementPlayer : MonoBehaviour
     void Update()
     {
         MyInput();
+        Run();
     }
 
     void FixedUpdate()
@@ -52,10 +54,26 @@ public class MovementPlayer : MonoBehaviour
         //calc Which way to move
         Move = (orientation.forward * verticalInput) + (orientation.right * horizontalInput);
 
+        //used to move the ridgidbody 
         rb.AddForce(Move.normalized * movespeed * 10f, ForceMode.Force);
 
+       
+        //used to make sure that the charater immediatly stops
+        rb.linearDamping = Drag;
 
+    }
 
+    void Run()
+    {
+        //run mechanic
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            movespeed = movespeed * 2;
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            movespeed = movespeed / 2;
+        }
     }
 
 }
