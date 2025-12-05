@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Jump : MonoBehaviour
 {
+    public float Gravity;
     public bool CanJump = true;
     public float Thrust;
     Rigidbody rb;
@@ -25,8 +26,14 @@ public class Jump : MonoBehaviour
         if (Input.GetKey(KeyCode.Space) && CanJump == true)
         {
 
-            rb.AddForce(0, Thrust, 0, ForceMode.VelocityChange);
+            rb.AddForce(0, Thrust, 0, ForceMode.Impulse);
             CanJump = false;
+        }
+        if (CanJump == false)
+        {
+            
+            rb.AddForce(Vector3.down* Gravity, ForceMode.Acceleration);
+
         }
 
 
@@ -37,6 +44,7 @@ public class Jump : MonoBehaviour
         if (collision.gameObject.name == "Map")
         {
             CanJump = true;
+            
         }
     }
 }

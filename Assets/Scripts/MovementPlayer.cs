@@ -5,7 +5,8 @@ public class MovementPlayer : MonoBehaviour
    
     //Initializing variables
     public float movespeed;
-    public float Drag;
+    public float DragFactor;
+ 
 
     float horizontalInput;
     float verticalInput;
@@ -54,12 +55,16 @@ public class MovementPlayer : MonoBehaviour
         //calc Which way to move
         Move = (orientation.forward * verticalInput) + (orientation.right * horizontalInput);
 
+
         //used to move the ridgidbody 
         rb.AddForce(Move.normalized * movespeed * 10f, ForceMode.Force);
 
        
-        //used to make sure that the charater immediatly stops
-        rb.linearDamping = Drag;
+        Vector3 drag = new Vector3((-rb.linearVelocity.x * DragFactor),0,(-rb.linearVelocity.z * DragFactor));
+        rb.AddForce(drag, ForceMode.Acceleration);
+
+
+
 
     }
 
