@@ -9,6 +9,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: MI_WoodTrim
     second: {fileID: 2100000, guid: 11165cc63c6d3584fb4c2ff399c256bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: defaultMat
+    second: {fileID: -3539732226628293051, guid: eccdf3e925565f14bb5cfb582ab73b83, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
