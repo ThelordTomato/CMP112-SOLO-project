@@ -42,6 +42,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Losing Piece
+    uniqueID: 295912557
+    locked: 0
+  - name: Winning Piece
+    uniqueID: 4083913657
+    locked: 0
   m_RenderingLayers:
   - Default
   - Light Layer 1
