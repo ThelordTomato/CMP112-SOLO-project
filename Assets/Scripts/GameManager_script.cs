@@ -3,6 +3,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class GameManager_script : MonoBehaviour
 {
@@ -11,9 +12,11 @@ public class GameManager_script : MonoBehaviour
     [SerializeField] private Transform gameTransform;
     [SerializeField] private Transform gamepiece;
 
+    public static bool Finished;
     private List<Transform> pieces;
     private int emptyLocation;
     private int Size;
+    private bool Shuffling = true; 
 
     private void CreatePieces(float gapThickness)
     {
@@ -77,6 +80,7 @@ public class GameManager_script : MonoBehaviour
     void Update()
     {
         movement();
+        Quit();
 
     }
 
@@ -106,6 +110,21 @@ public class GameManager_script : MonoBehaviour
             }
         }
     }
+    bool Complete()
+    {
+        //starts loop for piece Count where itll check if all the names are in the right order
+        for (int i = 0; i < pieces.Count; i++)
+        {
+            //returns false if not
+            if (pieces[i].name != $"{i}")
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
 
     bool Swap_Valid(int i, int offset, int colCheck)
     {
@@ -118,8 +137,18 @@ public class GameManager_script : MonoBehaviour
             (pieces[i].localPosition, pieces[i + offset].localPosition) = ((pieces[i + offset].localPosition, pieces[i].localPosition));
             //Update Empty Location
             emptyLocation = i;
-            return true;
+            
 
+            if (Complete() && Shuffling == false)
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+                //Just to make sure that it is actually running this part
+                Debug.Log("Puzzle solved! Changing to play scene");
+                SceneManager.LoadScene("play");
+                Finished = true;
+            }
+            return true;
         }
         return false;
     }
@@ -129,7 +158,7 @@ public class GameManager_script : MonoBehaviour
         // very own brute force shuffler
 
         System.Random rand = new System.Random();
-        int ranNum = Random.Range(100, 1001);
+        int ranNum = Random.Range(1000, 10001);
 
         //makes a random amount of shuffles from 100 to 1000
         for (int J = 0; J < ranNum; J++)
@@ -143,23 +172,20 @@ public class GameManager_script : MonoBehaviour
             if (Swap_Valid(i, +1, Size - 1)) { continue; }
 
         }
+        Shuffling = false;
+    }
 
-
-        bool Complete()
+    void Quit()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            //starts loop for piece Count where itll check if all the names are in the right order
-            for (int i = 0; i < pieces.Count; i++) 
-            {
-                //returns false if not
-                if (pieces[i].name != $"{i}")
-                {
-                    return false;
-                }
-            }
-
-            return true;
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            SceneManager.LoadScene("play");
         }
 
-
     }
+
+
+
 }

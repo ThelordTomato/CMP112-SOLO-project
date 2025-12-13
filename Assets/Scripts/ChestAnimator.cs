@@ -14,6 +14,11 @@ public class ChestAnimator : MonoBehaviour
     void Update() 
     {
       OpenChest();
+
+        if (GameManager_script.Finished == true)
+        {
+            Open = true;
+        }
     }
 
     public void OpenChest()

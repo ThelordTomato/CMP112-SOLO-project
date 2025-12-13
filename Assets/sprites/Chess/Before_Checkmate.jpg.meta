@@ -1,0 +1,1591 @@
+fileFormatVersion: 2
+guid: 484e0d370138c5c4b9724b942a07a41d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Before_Checkmate_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 622
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba87e27076e93b84ea7fac4531503731
+      internalID: 729341789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 622
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a02b94e83315734db3d44a24a823f79
+      internalID: 625202200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 622
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8773e4115eae04a89326512912870e
+      internalID: -515393863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_3
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 622
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abaaeccf893cd948ae5cf4d98cf8579
+      internalID: -1654358597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_4
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 622
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57ebd6bb4517744a86b016cfe885fc2
+      internalID: -1624287515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_5
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 622
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5099a22d173a44dbef5b191cc9edaf
+      internalID: -559300489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_6
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 622
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66ed9f0e422c7440a9469b19275a564
+      internalID: -1337241600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_7
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 622
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ba7598f131afc47b0b84c125268f16
+      internalID: 133032305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 534
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af0301fa53d3144e8a00406268c14d2
+      internalID: -2053477813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 534
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ba1652a9dedfd4c81ca52fedf59723
+      internalID: 629670021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 534
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f6ca9f7f444254492d80281b21cc9e
+      internalID: 1376723894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_11
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 534
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4374db2610017f45aa5821a345cbb77
+      internalID: 1040821368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_12
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 534
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd4b6619da8bd447b0d18ee9e38729c
+      internalID: 346680353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_13
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 534
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738f5af29629cb74f8b8523c9989a821
+      internalID: 1436587688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_14
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 534
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f21756c2460aa4ea8c402eb9306b88
+      internalID: 2002279630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_15
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 534
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d947321afe30d85478b0c522f76e5d77
+      internalID: 691521466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 446
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d24c3873cef94439512114c1f3cfa5
+      internalID: 513730785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_17
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 446
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ef3673d5fc5e24094b4aebe4fcd899
+      internalID: -2070877256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_18
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 446
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5198369225a314588042490acaf53f
+      internalID: 339576362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_19
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 446
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f4c11ad0be2b24db707f4498c5ccd9
+      internalID: -222716098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_20
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 446
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf671801e9a011e4bafa3d6f3521fe41
+      internalID: -613480354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_21
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 446
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad745354ba8bfba4cb07f9954d11e02f
+      internalID: 2087947473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_22
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 446
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d37adc5a6abf24c9b2d11b4ea39664
+      internalID: -1579729288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_23
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 446
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b5c46dae76aee40acd25c3b8e14bc1
+      internalID: 1943813923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 358
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bc04d6dc3a5d24b9cfd7308f215736
+      internalID: -1965387162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_25
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 358
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5716469d621e6cd43bbdcede055cf943
+      internalID: 762086184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_26
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 358
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f758738403e8acb49b35b432ef4f560a
+      internalID: 48011960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_27
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 358
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba8894bce887934dacbf37d33a7690b
+      internalID: -1951010145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_28
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 358
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829383304d5214540aa031457508f61e
+      internalID: -1923682741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_29
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 358
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1fc89ccb2df4e49aac0d3eabc92957
+      internalID: -1960498477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_30
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 358
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0e19a1f8e79c44eb6a0041d432da99
+      internalID: -1944663794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_31
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 358
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17c040759816184c884b27e91963bd2
+      internalID: -251841213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dff972dc2e14e4e89a22bf9d0d164a
+      internalID: -997746302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_33
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 270
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6257f9e2250f04bab3a0d3a9386481
+      internalID: -448517452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_34
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 270
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7587f0fa46060428c1153cb4974f63
+      internalID: 670741171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_35
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 270
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f695193406b1449b1dccfd91fdd02c
+      internalID: 1642506035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_36
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 270
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d36e1d93c0e3444aafeb742fc8f6e2
+      internalID: -158954026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_37
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 270
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8f464146e54a540a8fad9a8956a9bd
+      internalID: 1936886310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_38
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 270
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dace18ac7c81b244aa7be71e67eadd0c
+      internalID: -327057766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_39
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 270
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2174f01f06735b438f0d7fbd8ac8eca
+      internalID: 1622572041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 182
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9140cbb1f08a64fbb230424c6722e3
+      internalID: 1540333507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_41
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 182
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f33a6ce7fd8184486847e37fd3a31f
+      internalID: 50038724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_42
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 182
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bceaba4c0ad33648bf0ba38cf141084
+      internalID: -227057221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_43
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 182
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77957b30c1ebc304eb988b77187523aa
+      internalID: -1810741104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_44
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 182
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a2f734a80f3404daf288d3ad758694
+      internalID: 1795579542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_45
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 182
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3db43c1a67e5b43b2352d4af826f64
+      internalID: -796011600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_46
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 182
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a283dd30b0ce1fc4da1afdbe396dd2e2
+      internalID: 1815274827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_47
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 182
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc83a47196cd6324099f9c08c5244d0b
+      internalID: -283155727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59ea04afce33d24fb5baaf384fd30da
+      internalID: 767147402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_49
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 94
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c8076a80ef632409bea297dc2844e5
+      internalID: -723150575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_50
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 94
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681d322f299442d47b4e42cdbd7c0350
+      internalID: 1539473156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_51
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 94
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1b82d2c705daf4fae7cf999c39b443
+      internalID: -258058119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_52
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 94
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47419ff4ef403734c97a44aa1326100a
+      internalID: -1912924857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_53
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 94
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637de7e4460001545bbb66b7b60ee96d
+      internalID: 885918096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_54
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 94
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57408deea48eb4749b84b959ef2822bf
+      internalID: 2041369072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_55
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 94
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5260d6b244c2c4aa86cd15eaa8d0e3
+      internalID: -1778044525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f14f5764b34294ebb21d5edac72c24
+      internalID: 1332670871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_57
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 6
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbee3c56fa259b94cb543855a5b8da9c
+      internalID: 49999461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_58
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 6
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a544997a871bb04f9c60886803d3405
+      internalID: -277386568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_59
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 6
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44288c79066471347918fafc78248c1a
+      internalID: 1082774128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_60
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 6
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04286cb82620fdc4ea4904b8eb65c625
+      internalID: 1871339706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_61
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 6
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6286371989df344abc9168cf54a9aeb
+      internalID: 873212333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_62
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 6
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fa95f61b5c22e4fb8ac496a4d3306a
+      internalID: -2045265468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Before_Checkmate_63
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 6
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5ce8f6cadba8d4381d8ceaab723293
+      internalID: -911568808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":8.0},"gridSpriteSize":{"x":88.0,"y":88.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Before_Checkmate_0: 729341789
+      Before_Checkmate_1: 625202200
+      Before_Checkmate_10: 1376723894
+      Before_Checkmate_11: 1040821368
+      Before_Checkmate_12: 346680353
+      Before_Checkmate_13: 1436587688
+      Before_Checkmate_14: 2002279630
+      Before_Checkmate_15: 691521466
+      Before_Checkmate_16: 513730785
+      Before_Checkmate_17: -2070877256
+      Before_Checkmate_18: 339576362
+      Before_Checkmate_19: -222716098
+      Before_Checkmate_2: -515393863
+      Before_Checkmate_20: -613480354
+      Before_Checkmate_21: 2087947473
+      Before_Checkmate_22: -1579729288
+      Before_Checkmate_23: 1943813923
+      Before_Checkmate_24: -1965387162
+      Before_Checkmate_25: 762086184
+      Before_Checkmate_26: 48011960
+      Before_Checkmate_27: -1951010145
+      Before_Checkmate_28: -1923682741
+      Before_Checkmate_29: -1960498477
+      Before_Checkmate_3: -1654358597
+      Before_Checkmate_30: -1944663794
+      Before_Checkmate_31: -251841213
+      Before_Checkmate_32: -997746302
+      Before_Checkmate_33: -448517452
+      Before_Checkmate_34: 670741171
+      Before_Checkmate_35: 1642506035
+      Before_Checkmate_36: -158954026
+      Before_Checkmate_37: 1936886310
+      Before_Checkmate_38: -327057766
+      Before_Checkmate_39: 1622572041
+      Before_Checkmate_4: -1624287515
+      Before_Checkmate_40: 1540333507
+      Before_Checkmate_41: 50038724
+      Before_Checkmate_42: -227057221
+      Before_Checkmate_43: -1810741104
+      Before_Checkmate_44: 1795579542
+      Before_Checkmate_45: -796011600
+      Before_Checkmate_46: 1815274827
+      Before_Checkmate_47: -283155727
+      Before_Checkmate_48: 767147402
+      Before_Checkmate_49: -723150575
+      Before_Checkmate_5: -559300489
+      Before_Checkmate_50: 1539473156
+      Before_Checkmate_51: -258058119
+      Before_Checkmate_52: -1912924857
+      Before_Checkmate_53: 885918096
+      Before_Checkmate_54: 2041369072
+      Before_Checkmate_55: -1778044525
+      Before_Checkmate_56: 1332670871
+      Before_Checkmate_57: 49999461
+      Before_Checkmate_58: -277386568
+      Before_Checkmate_59: 1082774128
+      Before_Checkmate_6: -1337241600
+      Before_Checkmate_60: 1871339706
+      Before_Checkmate_61: 873212333
+      Before_Checkmate_62: -2045265468
+      Before_Checkmate_63: -911568808
+      Before_Checkmate_7: 133032305
+      Before_Checkmate_8: -2053477813
+      Before_Checkmate_9: 629670021
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

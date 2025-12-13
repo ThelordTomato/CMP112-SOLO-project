@@ -7,14 +7,22 @@ public class GameTimer : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI textTime;
     float TimeElapsed = 1800;
-
+    public static GameTimer Instance;
 
     void Update()
     {
         TimeElapsed -= Time.deltaTime;
         int mins = Mathf.FloorToInt(TimeElapsed / 60);
         int seconds = Mathf.FloorToInt(TimeElapsed % 60);
-        textTime.text = "Time Left: " + string.Format("{0:00}:{1:00}",mins,seconds);
+        textTime.text = "Time Left: " + string.Format("{0:00}:{1:00}", mins, seconds);
+
+       
+    }
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject); // keeps this timer across scenes
+
+
 
     }
 }
