@@ -36,14 +36,35 @@ public class Winning_Move : MonoBehaviour
             DeadPawn.gameObject.SetActive(false);
             Completed = true;
             SceneManager.LoadScene("play");
-
-
-    }
+        
+        
+        }
         else
         {
 
             transform.position = OriginalPosition;
         }
+
+    }
+
+    void Quit()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            SceneManager.LoadScene("play");
+        }
+
+    }
+
+    void Update()
+    {
+
+        Quit();
+
+
+
 
     }
 

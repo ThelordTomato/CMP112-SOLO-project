@@ -6,7 +6,7 @@ public class MovementPlayer : MonoBehaviour
     //Initializing variables
     public float movespeed;
     public float DragFactor;
- 
+
 
     float horizontalInput;
     float verticalInput;
@@ -15,6 +15,7 @@ public class MovementPlayer : MonoBehaviour
     public Transform orientation;
 
     Vector3 Move;
+
 
     Rigidbody rb;
    
@@ -30,6 +31,7 @@ public class MovementPlayer : MonoBehaviour
     {
         MyInput();
         Run();
+        
     }
 
     void FixedUpdate()
@@ -80,6 +82,8 @@ public class MovementPlayer : MonoBehaviour
             movespeed = movespeed / 2;
         }
     }
+
+   
 
 }
 

@@ -18,6 +18,9 @@ public class GameManager_script : MonoBehaviour
     private int Size;
     private bool Shuffling = true; 
 
+
+
+
     private void CreatePieces(float gapThickness)
     {
         float width = 1 / (float)Size;
