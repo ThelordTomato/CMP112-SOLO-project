@@ -1,10 +1,12 @@
+//for desc look at ClickForPuzzle
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class ClickForPuzzle2 : MonoBehaviour
 {
     public Transform Player;
-    public float Range = 2f;
+    public float Range;
 
 
     void OnMouseDown()

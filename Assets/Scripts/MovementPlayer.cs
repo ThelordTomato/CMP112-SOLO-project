@@ -1,4 +1,8 @@
+//Used https://www.youtube.com/watch?v=f473C43s8nE to help make movement
+//Didnt however use it to help with jumping
+
 using UnityEngine;
+
 
 public class MovementPlayer : MonoBehaviour
 {

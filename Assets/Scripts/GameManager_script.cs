@@ -11,6 +11,7 @@ public class GameManager_script : MonoBehaviour
     //gets the Transformation of both the game board and gamepiece
     [SerializeField] private Transform gameTransform;
     [SerializeField] private Transform gamepiece;
+    [SerializeField] private AudioSource moveAudio;
 
     public static bool Finished;
     private List<Transform> pieces;
@@ -140,10 +141,23 @@ public class GameManager_script : MonoBehaviour
             (pieces[i].localPosition, pieces[i + offset].localPosition) = ((pieces[i + offset].localPosition, pieces[i].localPosition));
             //Update Empty Location
             emptyLocation = i;
-            
+
+
+        //checks if shuffling
+            if (!Shuffling)
+            { 
+                //then checks if audio is playing
+                if (!moveAudio.isPlaying)
+                {
+                    //if it is not shuffling and the audio isnt playing itll make a sliding noise when clicking a piece
+                    moveAudio.Play();
+                }
+            }
+
 
             if (Complete() && Shuffling == false)
             {
+
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
                 //Just to make sure that it is actually running this part
