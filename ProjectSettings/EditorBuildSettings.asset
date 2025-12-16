@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/KeyPad_1.unity
     guid: 04114d21f223a9b489003ad5c8e3e722
+  - enabled: 1
+    path: Assets/Scenes/KeyPad_2.unity
+    guid: 6a347d5a34486e5488cb33f63489158b
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 3dfcf25fbafcc83469e710e827a0d0fd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

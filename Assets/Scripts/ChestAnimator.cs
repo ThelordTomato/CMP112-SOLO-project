@@ -17,13 +17,16 @@ public class ChestAnimator : MonoBehaviour
     {
       OpenChest();
 
-        if (GameManager_script.Finished == true && Done == false)
+        //Starts the chest animation once and keeps it there
+        if (GameManager_script.Finished == true)
         {
             Open = true;
 
-
-            ChestAudio.Play();
-            Done = true;
+            if (Done == false)
+            {
+                ChestAudio.Play();
+                Done = true;
+            }
         }
     }
 

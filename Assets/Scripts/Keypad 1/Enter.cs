@@ -46,6 +46,7 @@ public class Enter : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
             SceneManager.LoadScene("play");
+            button.sequence = 0;
         }
 
     }
